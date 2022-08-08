@@ -11,3 +11,8 @@ let t2 = performance.now();
 //we divide by 1000 because its in milliseconds 
 console.log(`Time used ${(t2 - t1) / 1000} seconds`)
 
+
+// performace tracker https://rithmschool.github.io/function-timer-demo/
+
+
+//BIG O Definition 
