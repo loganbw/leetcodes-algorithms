@@ -10,14 +10,10 @@ var validMountainArray = function (arr) {
     return false;
   }
   for (let i = 0; i < arr.length; i++) {
-    if (arr[i] < arr[i + 1]) {
-      console.log("climbing");
-    }
     if (peaked == true && arr[i] < arr[i + 1]) {
       return false;
     }
     if (arr[i] > arr[i + 1]) {
-      console.log("descending");
       peaked = true;
     }
     if (arr[i] == arr.at(-1)) {
@@ -25,3 +21,4 @@ var validMountainArray = function (arr) {
     }
   }
 };
+//big O O(n)
