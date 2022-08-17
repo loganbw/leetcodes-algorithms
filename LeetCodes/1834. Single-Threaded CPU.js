@@ -16,7 +16,7 @@ var getOrder = function (tasks) {
   mapped.sort(function (a, b) {
     return a.value - b.value;
   });
-  
+
   var result = mapped.map(function (el) {
     return el.index;
   });
